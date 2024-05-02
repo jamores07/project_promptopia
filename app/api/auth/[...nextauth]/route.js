@@ -20,7 +20,11 @@ const handler = NextAuth({
     },
 
     async signIn({ profile }) {
+        try {
+            
+        } catch (error) {
 
+        }
     }
 })
 
