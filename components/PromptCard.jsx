@@ -9,6 +9,7 @@ import { usePathnam, useRouter } from 'next/navigation';
 
 const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
   const { data: session } = useSession();
+  console.log(session)
 
   return (
     <div className="prompt_card">
@@ -18,13 +19,23 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
           onClick={() => {}}
         >
           <Image
-            src={post.create.image}
+            src={post.creator.image}
             alt='user_image'
             width={40}
             height={40}
             className='rounded-full object-contain'
           />
+          <div>
+            <h3 className='font-satoshi font-semibold text-gray-900'>
+              {post.creator.username}
+            </h3>
+            <p className='font-inter text-sm text-gray-500'>
+              {post.creator.email}
+            </p>
+          </div>
         </div>
+        
+
       </div>
 
 
