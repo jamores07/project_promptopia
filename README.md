@@ -1,6 +1,22 @@
 <h1>Promptopia AI Prompt Sharing Platform</h1>
 
-### [Live Project](https://project-promptopia-snowy-six.vercel.app/)
+<div align="center">
+  <br />
+    <a href="https://project-promptopia-snowy-six.vercel.app/" target="_blank">
+    <img width="677" alt="Promptopia_Banner" src="https://github.com/jamores07/project_promptopia/assets/126208216/c3665e47-b99d-4e81-856f-d8bc0040356c">
+    </a>
+  <br />
+
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <img src="https://img.shields.io/npm/v/next-auth?style=for-the-badge&color=green&label=next-auth" alt="NextAuth" />
+    
+  </div>
+
+</div>
+
 
 <h2>Description</h2>
 This project consists of a web application that allows users to create a global repository of AI prompt. The web application allows user to join and create a profile, post and share prompts via a global feed on the landing page. The search functionality utilizes pagination and the abilty to filter by topics, tags and specific users. 
